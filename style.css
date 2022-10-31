@@ -4,7 +4,7 @@
 
 .dice {
     display: grid;
-    grid-template-columns: 5;
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .dice__dot {
